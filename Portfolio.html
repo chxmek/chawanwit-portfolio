@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Chawanwit Silakhan — Full Stack Developer Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <style>
+    html { scroll-behavior: smooth; }
+    *, *::before, *::after { box-sizing: border-box; }
+    html, body {
+      margin: 0; padding: 0;
+      background: #000;
+      color: #fff;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      text-rendering: optimizeLegibility;
+    }
+    a { color: inherit; }
+    ::selection { background: #fff; color: #000; }
+
+    /* Custom scrollbar — cosmic gradient */
+    ::-webkit-scrollbar { width: 10px; height: 10px; }
+    ::-webkit-scrollbar-track { background: #000; }
+    ::-webkit-scrollbar-thumb {
+      background: linear-gradient(180deg,#818cf8,#22d3ee,#34d399);
+      border: 2px solid #000;
+      border-radius: 999px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: linear-gradient(180deg,#a78bfa,#22d3ee,#34d399);
+    }
+
+    /* Coloured star field across the entire page */
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: 0;
+      background-image:
+        radial-gradient(1px 1px at 14% 22%, rgba(129,140,248,0.8), transparent 50%),
+        radial-gradient(1px 1px at 78% 14%, rgba(34,211,238,0.7), transparent 50%),
+        radial-gradient(1px 1px at 46% 64%, rgba(52,211,153,0.75), transparent 50%),
+        radial-gradient(1px 1px at 86% 78%, rgba(244,114,182,0.65), transparent 50%),
+        radial-gradient(1px 1px at 22% 88%, rgba(167,139,250,0.7), transparent 50%),
+        radial-gradient(1px 1px at 64% 38%, rgba(251,191,36,0.6), transparent 50%),
+        radial-gradient(1px 1px at 33% 48%, rgba(255,255,255,0.5), transparent 50%),
+        radial-gradient(1px 1px at 91% 32%, rgba(129,140,248,0.6), transparent 50%);
+      opacity: 0.7;
+    }
+    #root { position: relative; z-index: 1; }
+  </style>
+
+  <script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="root"></div>
+
+  <script type="text/babel" src="animations.jsx"></script>
+  <script type="text/babel" src="cosmic-animation.jsx"></script>
+  <script type="text/babel" src="portfolio.jsx"></script>
+  <script type="text/babel">
+    const root = ReactDOM.createRoot(document.getElementById('root'));
+    root.render(<window.PortfolioApp />);
+  </script>
+</body>
+</html>
