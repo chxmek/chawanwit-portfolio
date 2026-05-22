@@ -228,7 +228,7 @@ function Hero() {
           {/* CTA buttons */}
           <div style={{ display: 'flex', gap: 16, marginTop: 48, flexWrap: 'wrap' }}>
             <a
-              href="uploads/CV_Chawanwit_Silakhan.pdf"
+              href="uploads/resume-2026.pdf"
               target="_blank"
               rel="noreferrer"
               style={{
