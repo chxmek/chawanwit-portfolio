@@ -747,7 +747,7 @@ function Experience() {
       n: 'Apr 2023 — Oct 2023',
       duration: '7 mo · co-op',
       company: 'AI Technovation Co., Ltd.',
-      role: 'Mobile Developer (Co-op & Internship)',
+      role: 'Mobile Application Developer (Co-op & Internship)',
       summary: 'Designed and built a production mobile app from blank Figma file to App Store-ready Flutter build — across UX, state management, auth, and team workflow.',
       bullets: [
         'Designed UX / UI for the application in Figma, then built it in Flutter.',
@@ -1251,7 +1251,7 @@ function Lab() {
               color: 'rgba(255,255,255,0.5)', letterSpacing: '0.28em', textTransform: 'uppercase',
             }}>
               <span>Sakolraj Wittayanukul School</span>
-              <span>2017 — 2020</span>
+              <span>May 2017 — March 2020</span>
             </div>
             <h3 style={{
               fontFamily: helv, fontSize: 28, fontWeight: 700,
