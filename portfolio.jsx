@@ -1251,7 +1251,7 @@ function Lab() {
               color: 'rgba(255,255,255,0.5)', letterSpacing: '0.28em', textTransform: 'uppercase',
             }}>
               <span>Sakolraj Wittayanukul School</span>
-              <span>May 2017 — March 2020</span>
+              <span>2017 — 2020</span>
             </div>
             <h3 style={{
               fontFamily: helv, fontSize: 28, fontWeight: 700,
