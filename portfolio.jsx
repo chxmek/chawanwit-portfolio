@@ -326,7 +326,7 @@ function About() {
               background: 'linear-gradient(90deg,#818cf8,#22d3ee)',
               WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent',
             }}>building reliable</span><br/>
-            web and mobile<br/>
+            web, mobile &amp; AI&#8209;powered<br/>
             <span style={{
               background: 'linear-gradient(90deg,#22d3ee,#34d399)',
               WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent',
@@ -732,16 +732,19 @@ function Experience() {
         'Design and integrate REST APIs and connect applications with databases and external services.',
         'Optimise database structures and system performance for scalability and maintainability.',
         'Build and run cloud-based deployments and workflow automation.',
+        'Design and develop AI-powered features including RAG-based internal knowledge chatbots using embedding models and LLM APIs (AWS Bedrock, Azure AI), and AI + OCR integrations for automated invoice processing and document analysis.',
         'Collaborate with cross-functional teams to analyse requirements and deliver business solutions.',
         'Participate in system design, troubleshooting, testing, and deployment processes.',
       ],
       achievements: [
         'Shipped end-to-end business applications that improved day-to-day operational efficiency.',
+        'Built a RAG-based internal knowledge chatbot using embedding models and LLM APIs via AWS Bedrock and Azure AI, enabling teammates to query company knowledge instantly.',
+        'Integrated AI and OCR models for invoice processing and document analysis, automating data extraction and reducing manual effort significantly.',
         'Implemented API integrations and optimised data workflows across multiple disconnected systems.',
         'Raised maintainability and scalability through better architecture and deployment practices.',
         'Contributed to workflow automation and AI-powered solutions that gave teammates real hours back.',
       ],
-      tags: ['ASP.NET MVC', 'Next.js', 'FastAPI', 'PostgreSQL', 'SQL Server', 'Docker', 'Azure DevOps', 'AWS Lambda', 'AWS S3', 'Power Apps', 'Power Automate', 'LLM APIs', 'Prompt Engineering'],
+      tags: ['ASP.NET MVC', 'Next.js', 'FastAPI', 'PostgreSQL', 'SQL Server', 'Docker', 'Azure DevOps', 'AWS Lambda', 'AWS S3', 'AWS Bedrock', 'Azure AI', 'Power Apps', 'Power Automate', 'LLM APIs', 'RAG', 'Prompt Engineering', 'OCR'],
     },
     {
       n: 'Apr 2023 — Oct 2023',
